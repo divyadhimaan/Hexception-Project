@@ -1,0 +1,82 @@
+.SchoolLogin {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.SchoolLogin__container {
+  width: 90vw;
+  height: 90vh;
+  border: 1px solid lightgray;
+  display: flex;
+}
+
+.SchoolLogin__content {
+  width: 45%;
+  overflow-y: scroll;
+  padding: 5%;
+  padding-right: 0px;
+}
+
+.SchoolLogin__content > h2 {
+  color: #162c5b;
+  font-weight: 1000;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.SchoolLogin__text {
+  color: #162c5b;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.SchoolLogin__inp {
+  border: 2px solid lightgray;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+}
+
+.SchoolLogin__inp:hover {
+  border: 2px solid #64a9e6;
+}
+
+.SchoolLogin__dropdown {
+  width: 82%;
+  height: 45px;
+  background-color: white;
+  border: 2px solid #64a9e6;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  color: #162c5b;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.SchoolLogin__submit {
+  width: 80%;
+  height: 55px;
+  background-color: #c5ccd3;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.SchoolLogin__submit:hover {
+  cursor: pointer;
+}
+
+.SchoolLogin__img {
+  background-image: url("https://www.wayforlife.org/img/passion/work2.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}

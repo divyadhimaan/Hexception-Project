@@ -1,0 +1,71 @@
+.adlogin{
+    
+    display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.ad_box {
+    box-shadow: -1px 5px 20px -6px rgb(0, 0, 0, 0.4);
+    width :80vw;
+    height :65vw;
+    border: 1px solid lightgray;
+    display:flex;
+    
+}
+
+.ad_content{
+    width: 45%;
+    padding :5%;
+    padding-right: 0px;
+}
+
+.login_text{
+    
+    margin : 15px;
+    font-size: 30px;
+    color: #162c5b;
+    font-weight: 1000;
+}
+
+.admin_display{
+    color: #162c5b;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.admin_input{
+    border: 2px solid lightgray;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 80%;
+    padding: 5px;
+}
+
+.admin_input :hover{
+    border: 2px solid #64a9e6;
+}
+
+.admin_click{
+    align-items: center;
+    width: 83%;
+    height: 55px;
+    background-color: #138dff;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.bg_img{
+    background-image: url("https://www.wayforlife.org/img/passion/work2.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  margin : 20px;
+  width: 50%;
+  height: 95%;
+}

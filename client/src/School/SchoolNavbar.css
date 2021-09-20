@@ -1,0 +1,25 @@
+.nav__ele {
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 5px;
+  width: 140px;
+  color: #162c5b;
+  font-size: 14px;
+}
+
+.nav__ele:hover {
+  transform: scale(1.1);
+}
+
+.schoolNav__link {
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 5px;
+  border: 2px solid #b4dcfc;
+  width: fit-content;
+  color: #162c5b;
+}
+
+.schoolNav__link:hover {
+  border: 2px solid #138dff;
+}

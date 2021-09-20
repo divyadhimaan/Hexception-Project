@@ -1,0 +1,70 @@
+.req {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.req_text {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-left: 0;
+  font-size: 30px;
+  color: #162c5b;
+  font-weight: 1000;
+  padding-bottom: 25px;
+}
+.req_box {
+  background-color: whitesmoke;
+  box-shadow: -1px 5px 20px -6px rgb(0, 0, 0, 0.4);
+  width: 45vw;
+
+  height: 45vw;
+  margin-top: 20px;
+  align-items: center;
+
+  border: 3px solid lightgray;
+  display: flex;
+}
+
+.content {
+  width: 90%;
+  align-items: center;
+  padding-top: auto;
+}
+.req_text {
+  padding-left: 25%;
+  padding-top: -200px;
+  align-items: center;
+  font-weight: 700;
+}
+.display {
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.input {
+  color: #162c5b;
+
+  height: 30px;
+
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+  padding-left: 6.8vw;
+}
+.para {
+  margin-left: -7vw;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.bigger {
+  color: #162c5b;
+  height: 50px;
+
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+  padding-left: 6.8vw;
+}

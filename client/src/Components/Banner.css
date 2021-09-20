@@ -1,0 +1,24 @@
+.banner {
+  height: 550px;
+}
+
+.b__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b__title {
+  margin-left: 150px;
+  max-width: 270px;
+}
+
+.b__title > h2 {
+  font-size: 45px;
+  color: #162c5b;
+}
+
+.banner__img {
+  height: 500px;
+  object-fit: contain;
+}

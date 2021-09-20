@@ -1,0 +1,27 @@
+.vlogin__content {
+  width: 45%;
+  padding: 5%;
+  padding-right: 0px;
+  align-self: center;
+  margin-top: -20px;
+}
+
+.vlogin__container {
+  width: 90vw;
+  height: 70vh;
+  border: 1px solid lightgray;
+  display: flex;
+  box-shadow: -1px 5px 20px -6px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.vlogin__content > h2 {
+  color: #162c5b;
+  font-weight: 1000;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.vlogin__content > p {
+  margin-bottom: 15px;
+}

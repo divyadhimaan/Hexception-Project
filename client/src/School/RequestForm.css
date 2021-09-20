@@ -1,0 +1,83 @@
+.reqform {
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(lightblue, white);
+  height: 100vh;
+}
+
+.req_box {
+  box-shadow: -1px 5px 20px -6px rgb(0, 0, 0, 0.4);
+  width: 80vw;
+  height: 75vh;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+}
+
+.content {
+  width: 45%;
+  padding: 5%;
+  padding-right: 0px;
+}
+
+.req_text {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-left: 0;
+  font-size: 30px;
+  color: #162c5b;
+  font-weight: 1000;
+  padding-bottom: 15px;
+}
+
+.school_display {
+  color: #162c5b;
+  font-weight: 400;
+  margin: 2px;
+}
+
+.school_input {
+  border: 2px solid lightgray;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+}
+
+.school_input_bigger {
+  border: 2px solid lightgray;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+}
+
+.school_input :hover {
+  border: 2px solid #64a9e6;
+}
+
+.send_button {
+  align-items: center;
+  width: 83%;
+  height: 55px;
+  background-color: #138dff;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.bg_img {
+  background-image: url("https://kaliforms.com/wp-content/uploads/2020/07/2808343-min.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  margin: 2px;
+  margin-bottom: 1px;
+  width: 50%;
+  height: 99%;
+}

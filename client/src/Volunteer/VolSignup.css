@@ -1,0 +1,103 @@
+.vsignup {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.vsignup__container {
+  width: 90vw;
+  height: 80vh;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+  box-shadow: -1px 5px 20px -6px rgb(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.vsignup__content {
+  width: 45%;
+  overflow-y: scroll;
+  padding: 5%;
+  padding-right: 0px;
+  background-color: white;
+}
+
+.vsignup__logo {
+  padding: 20px;
+  padding-left: 0px;
+  position: absolute;
+  height: 50px;
+  object-fit: contain;
+}
+
+.vsignup__content > h2 {
+  color: #162c5b;
+  font-weight: 1000;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.vsignup__content > p {
+  margin-bottom: 15px;
+}
+
+.vsignup__link {
+  color: #138dff;
+  text-decoration: none;
+}
+
+.vsignup__text {
+  color: #162c5b;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.vsignup__inp {
+  border: 2px solid lightgray;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 80%;
+  padding: 5px;
+}
+
+.vsignup__inp:hover {
+  border: 2px solid #64a9e6;
+}
+
+.vsignup__dropdown {
+  width: 82%;
+  height: 45px;
+  background-color: white;
+  border: 2px solid #64a9e6;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  color: #162c5b;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.vsignup__submit {
+  width: 80%;
+  height: 55px;
+  background-color: #138dff;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.vsignup__submit:hover {
+  cursor: pointer;
+}
+
+.vsignup__img {
+  background-image: url("https://www.wayforlife.org/img/passion/work2.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}

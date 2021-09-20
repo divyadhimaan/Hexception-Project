@@ -1,0 +1,11 @@
+Team*.zip
+team*.zip
+*.pem
+*.ppk
+*.crt
+*.key
+*.ovpn
+backend/node_modules/
+
+backend/config/default.json
+
