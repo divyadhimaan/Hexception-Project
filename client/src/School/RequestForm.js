@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import './RequestForm.css';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function RequestForm() {
 
@@ -9,7 +9,7 @@ function RequestForm() {
     const FundreqRef = useRef();
     const desRef = useRef();
 
-    const history = useHistory();
+    const history = useNavigate();
 
     
 

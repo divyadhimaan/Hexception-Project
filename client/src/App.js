@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import VolLogin from './Volunteer/VolLogin';
 import VolSignup from './Volunteer/VolSignup';
 import Dashboard from './Components/Dashboard';
@@ -40,33 +40,33 @@ function App() {
   return (
     <div className="App">
       <Router >
-        <Switch>
+        <Routes>
           {/* school portal */}
-          <Route path='/school-profile' exact component={Profile} />
-          <Route path='/my-requests' exact component={MyRequests} />
-          <Route path='/request-form' exact component={RequestForm} />
-          <Route path='/school-dashboard' exact component={SchoolDashboard} />          
-          <Route path='/LoginSchool' exact component={LoginSchool} />
-          <Route path='/SignupSchool' exact component={SignupSchool} />
+          <Route path='/school-profile' exact element={<Profile />} />
+          <Route path='/my-requests' exact element={<MyRequests />} />
+          <Route path='/request-form' exact element={<RequestForm />} />
+          <Route path='/school-dashboard' exact element={<SchoolDashboard />} />          
+          <Route path='/LoginSchool' exact element={<LoginSchool />} />
+          <Route path='/SignupSchool' exact element={<SignupSchool />} />
 
           {/* volunteer portal */}
-          <Route path='/approved-req' exact component={ApprovedReq} />
-          <Route path='/my-schools' exact component={MySchools} />
-          <Route path='/vol-dashboard' exact component={VolDashboard} />
-          <Route path='/vol-signup' exact component={VolSignup} />
-          <Route path='/vol-login' exact component={VolLogin} />
+          <Route path='/approved-req' exact element={<ApprovedReq />} />
+          <Route path='/my-schools' exact element={<MySchools />} />
+          <Route path='/vol-dashboard' exact element={<VolDashboard />} />
+          <Route path='/vol-signup' exact element={<VolSignup />} />
+          <Route path='/vol-login' exact element={<VolLogin />} />
           
 
           {/* admin portal */}
-          <Route path='/vol-initiatives' exact component={VolInitiatives} />
-          <Route path='/reg-vols' exact component={RegVols} />
-          <Route path='/school-requests' exact component={SchoolRequests} />
-          <Route path='/admin-dashboard' exact component={AdminDashboard} />
-          <Route path='/admin-login' exact component={AdminLogin} />
+          <Route path='/vol-initiatives' exact element={<VolInitiatives />} />
+          <Route path='/reg-vols' exact element={<RegVols />} />
+          <Route path='/school-requests' exact element={<SchoolRequests />} />
+          <Route path='/admin-dashboard' exact element={<AdminDashboard />} />
+          <Route path='/admin-login' exact element={<AdminLogin />} />
 
           
-          <Route exact path='/' component={Dashboard} />
-        </Switch>
+          <Route exact path='/' element={<Dashboard/>} />
+        </Routes>
       </Router>
     </div>
   );

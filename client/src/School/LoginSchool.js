@@ -1,7 +1,7 @@
 import React from 'react'
 import './LoginSchool.css';
 import {useRef} from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function LoginSchool() {
@@ -10,7 +10,7 @@ function LoginSchool() {
     const emailRef = useRef();
     const passwordRef = useRef();
 
-    const history = useHistory();
+    const history = useNavigate();
     
 
     async function handleSubmit (e) {

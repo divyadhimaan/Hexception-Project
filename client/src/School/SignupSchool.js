@@ -1,7 +1,7 @@
 import React from 'react'
 import './SignupSchool.css';
 import {useRef} from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function SignupSchool() {
@@ -13,7 +13,7 @@ function SignupSchool() {
     const pinRef = useRef();
     const phoneRef = useRef();
 
-    const history = useHistory();
+    const history = useNavigate();
 
     
 
