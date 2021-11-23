@@ -3,5 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Packages needed to start the app
-npm axios react-router-dom @material-ui/icons
+npm i axios
 
+npm i react-router-dom 
+
+npm install @material-ui/core
+
+npm install @material-ui/icons
