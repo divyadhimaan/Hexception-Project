@@ -13,7 +13,7 @@ function SignupSchool() {
     const pinRef = useRef();
     const phoneRef = useRef();
 
-    const history = useNavigate();
+    const navigate = useNavigate();
 
     
 
@@ -32,7 +32,7 @@ function SignupSchool() {
         try {
             const res = await axios.post("http://localhost:8000/api/school/register", volData);
             console.log(res.data);
-            history.push('/school-dashboard');
+            navigate('/school-dashboard');
         
         } catch(err) {
             console.log(err);

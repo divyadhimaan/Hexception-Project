@@ -10,7 +10,7 @@ function LoginSchool() {
     const emailRef = useRef();
     const passwordRef = useRef();
 
-    const history = useNavigate();
+    const navigate = useNavigate();
     
 
     async function handleSubmit (e) {
@@ -24,7 +24,7 @@ function LoginSchool() {
             console.log(res.data);
             localStorage.setItem("email", volData.email);
             
-            history.push('/school-dashboard');
+            navigate('/school-dashboard');
         
         } catch(err) {
             console.log(err);

@@ -9,7 +9,7 @@ function RequestForm() {
     const FundreqRef = useRef();
     const desRef = useRef();
 
-    const history = useNavigate();
+    const navigate = useNavigate();
 
     
 
@@ -27,7 +27,7 @@ function RequestForm() {
             const res = await axios.post("http://localhost:8000/schools/addRequest", Schooldata);
             console.log(res.data);
             
-            history.push('/my-requests');
+            navigate('/my-requests');
         
         } catch(err) {
             console.log(err);
